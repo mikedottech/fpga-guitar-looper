@@ -1,0 +1,52 @@
+# ── OS / editor junk ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.bak
+.vscode/
+.idea/
+
+# ── Quartus II / Quartus Prime build artefacts ──────────────────
+db/
+incremental_db/
+output_files/
+simulation/
+.qsys_edit/
+.sopc_builder/
+*.qws
+*.smsg
+*.summary
+*.done
+*.qarlog
+*.cdf
+*.dpf
+*.jdi
+*.pin
+*.qmsg
+*.rpt
+*.csv
+greybox_tmp/
+
+# ── Bitstreams (build outputs, never source) ────────────────────
+*.sof
+*.pof
+*.jam
+*.jbc
+*.rbf
+
+# ── Quartus megafunction regenerable outputs ────────────────────
+*.bsf
+*.cmp
+*.qip
+*.ppf
+*_inst.vhd
+*_inst.v
+*_bb.v
+
+# ── ModelSim / Quartus simulation ───────────────────────────────
+*.wlf
+*.vstf
+transcript
+work/
