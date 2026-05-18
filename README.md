@@ -37,31 +37,32 @@ Real captures from the running hardware. Players below; raw files
 
 **1. First successful record-and-loop cycle**
 
-<video controls src="docs/audio/demo1.mp4"></video>
+["docs/audio/demo1.mp4"]
+
 
 **2. One base layer + a second layer on top**
 
-<video controls src="docs/audio/demo2.mp4"></video>
+["docs/audio/demo2.mp4"]
 
 **3. Multi-layer build-up**
 
-<video controls src="docs/audio/demo3.mp4"></video>
+["docs/audio/demo3.mp4"]
 
 **4. Multi-layer build-up**
 
-<video controls src="docs/audio/demo4.mp4"></video>
+["docs/audio/demo4.mp4"]
 
 **5. Multi-layer build-up**
 
-<video controls src="docs/audio/demo5.mp4"></video>
+["docs/audio/demo5.mp4"]
 
 **6. Multi-layer build-up**
 
-<video controls src="docs/audio/demo6.mp4"></video>
+["docs/audio/demo6.mp4"]
 
 **7. Final demo session**
 
-<video controls src="docs/audio/demo7.mp4"></video>
+["docs/audio/demo7.mp4"]
 
 ---
 
