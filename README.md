@@ -31,18 +31,37 @@ SDRAM before wrapping.
 
 ## 🎧 Listen
 
-Real captures from the running hardware. All files are in
+Real captures from the running hardware. Players below; raw files
+(both `.mp3` and audio-only `.mp4`) live in
 [`docs/audio/`](docs/audio/).
 
-| File | What you're hearing |
-|------|---------------------|
-| [`demo1.mp3`](docs/audio/demo1.mp3) | First successful record-and-loop cycle. |
-| [`demo2.mp3`](docs/audio/demo2.mp3) | One base layer + a second layer on top. |
-| [`demo3.mp3`](docs/audio/demo3.mp3) | Multi-layer build-up. |
-| [`demo4.mp3`](docs/audio/demo4.mp3) | Multi-layer build-up. |
-| [`demo5.mp3`](docs/audio/demo5.mp3) | Multi-layer build-up. |
-| [`demo6.mp3`](docs/audio/demo6.mp3) | Multi-layer build-up. |
-| [`demo7.mp3`](docs/audio/demo7.mp3) | Final demo session. |
+**1. First successful record-and-loop cycle**
+
+<video controls src="docs/audio/demo1.mp4"></video>
+
+**2. One base layer + a second layer on top**
+
+<video controls src="docs/audio/demo2.mp4"></video>
+
+**3. Multi-layer build-up**
+
+<video controls src="docs/audio/demo3.mp4"></video>
+
+**4. Multi-layer build-up**
+
+<video controls src="docs/audio/demo4.mp4"></video>
+
+**5. Multi-layer build-up**
+
+<video controls src="docs/audio/demo5.mp4"></video>
+
+**6. Multi-layer build-up**
+
+<video controls src="docs/audio/demo6.mp4"></video>
+
+**7. Final demo session**
+
+<video controls src="docs/audio/demo7.mp4"></video>
 
 ---
 
@@ -341,6 +360,6 @@ their respective vendors under their original license terms. See
 
 ## Author
 
-**Miguel Angel Exposito** - 
+**Miguel Angel Exposito** 
 [LinkedIn](https://www.linkedin.com/in/miguel-angel-exposito) ·
 [GitHub](https://www.github.com/mikedottech)
