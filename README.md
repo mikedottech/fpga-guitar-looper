@@ -92,33 +92,33 @@ explicit crossing on the FIFO boundaries:
 Top-level dataflow (`Looper.vhd`):
 
 ```
-                ┌──────────────┐
-   Guitar in    │              │   Layered mix out
-  ─────────────►│   WM8731     ├─────────────────►  to amp / headphones
-                │   Codec      │
-                └──────┬───┬───┘
-                       │   │ I2S (18.4 MHz)
-                  ┌────▼───┴─────┐
+                
+   Guitar in    ┌──────────────┐   Layered mix out
+  ─────────────►│    WM8731    ├─────────────────────────────►  to amp / headphones
+                │    Codec     │◄────────┌─────────────────┐ 
+                └──────▲───────┘  I2C    │  I2C_AV_Config  │ ← I2C serial codec controller (configuration)
+      I2S (18.4 MHz)   │        (50 MHz) └─────────────────┘
+                  ┌────▼─────────┐
                   │  CODECC.vhd  │  ← I2S serial codec controller
                   │  + DACC.vhd  │
-                  └────┬─────────┘
+                  └────▲─────────┘
                        │ 16-bit samples (codec clk)
                   ┌────▼─────────┐
                   │  FIFO        │  ← clock-domain crossing
                   │  (Altera DC) │
-                  └────┬─────────┘
+                  └────▲─────────┘
                        │ (50 MHz / 100 MHz)
                   ┌────▼─────────┐         ┌────────────────┐
                   │  MFC.vhd     │◄────────┤ cmd_interface  │
                   │  Memory Flow │ rec/    │     .vhd       │
                   │  Controller  │ play/   │  (PS/2 → FSM)  │
-                  └────┬─────────┘ layer   └────────┬───────┘
+                  └────▲─────────┘ layer   └────────▲───────┘
                        │ addr / data                │
-                  ┌────▼─────────┐                  │
+                  ┌────▼───────────┐                │
                   │  Altera AN-202 │                │
-                  │  SDRAM ctrl   │                 │
-                  │  (3rd party)  │                 │
-                  └────┬─────────┘                  │
+                  │  SDRAM ctrl    │                │
+                  │  (3rd party)   │                │
+                  └────▲───────────┘                │
                        │                            │
                   ┌────▼─────────┐         ┌────────▼───────┐
                   │  Off-chip    │         │  PS/2 receiver │
