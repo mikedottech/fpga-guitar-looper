@@ -35,19 +35,27 @@ Real captures from the running hardware. Players below; raw files
 (both `.mp3` and audio-only `.mp4`) live in
 [`docs/audio/`](docs/audio/).
 
-[`1. First successful record-and-loop cycle`](docs/audio/demo1.mp4)
+**1. First successful record-and-loop cycle**
+<video src="https://github.com/user-attachments/assets/51756f99-c0eb-459c-9597-d8b28e17fef2"></video>
 
-[`2. One base layer + a second layer on top`](docs/audio/demo2.mp4)
+**2. One base layer + a second layer on top`**
+<video src="https://github.com/user-attachments/assets/0a9eef6c-b42d-416a-8fa1-590f19659652"></video>
 
-[`3. Multi-layer build-up`](docs/audio/demo3.mp4)
+**3. Multi-layer build-up**
+<video src="https://github.com/user-attachments/assets/85607197-29b8-45c6-8bc6-4a648f8470e7"></video>
 
-[`4. Multi-layer build-up`](docs/audio/demo4.mp4)
+**4. Multi-layer build-up**
+<video src="https://github.com/user-attachments/assets/50fbd163-37e8-4e6a-b567-4d783616b806"></video>
 
-[`5. Multi-layer build-up`](docs/audio/demo5.mp4)
+**5. Multi-layer build-up**
+<video src="https://github.com/user-attachments/assets/96b67d02-58cc-42f8-9eb7-ed149aa9788a"></video>
 
-[`6. Multi-layer build-up`](docs/audio/demo6.mp4)
+**6. Multi-layer build-up**
+<video src="https://github.com/user-attachments/assets/97907fa2-1355-4294-964d-4230807eedc2"></video>
 
-[`7. Final demo session`](docs/audio/demo7.mp4)
+**7. Final demo session**
+<video src="https://github.com/user-attachments/assets/008a725d-8dc9-434e-99cc-89a8920992eb"></video>
+
 
 ---
 
