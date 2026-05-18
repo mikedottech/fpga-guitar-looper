@@ -356,4 +356,4 @@ their respective vendors under their original license terms. See
 
 **Miguel Angel Exposito** 
 [LinkedIn](https://www.linkedin.com/in/miguel-angel-exposito) ·
-[GitHub](https://www.github.com/mikedottech)
+[GitHub](https://www.github.com/mikedottech) · [Blog](https://pixelclock.blog/about/)
